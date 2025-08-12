@@ -1,0 +1,1 @@
+{"200": {"student_id": 200, "last_name": "Ghebreamlak", "first_name": "Fithi", "grades": {"P1": 100, "P2": 90, "P3": 80, "P4": 78, "T1": 98, "T2": 80, "F1": 89}, "final_grade": 88.2}, "190": {"student_id": 190, "last_name": "gerie", "first_name": "yoel", "grades": {"P1": 100, "P2": 89, "P3": 90, "P4": 100, "T1": 98, "T2": 89, "F1": 90}, "final_grade": 92.77499999999999}}
