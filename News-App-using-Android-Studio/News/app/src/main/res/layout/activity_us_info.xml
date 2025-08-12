@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".us_info"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" United States of America"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flag"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#2196F3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/us_flag"
+                android:layout_width="257dp"
+                android:layout_height="153dp"
+                android:layout_marginHorizontal="40dp"
+                android:src="@drawable/usaflag">
+
+            </ImageView>
+
+                <Button
+                    android:id="@+id/anthem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:elevation="5dp"
+                    android:onClick="play_anthem"
+                    app:cornerRadius="18dp"
+                    android:text="Play anthem">
+
+                </Button>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Capital: "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="#2196F3"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginRight="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Washington, D.C."
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="President: "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="#2196F3"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginRight="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Joe Biden"
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Population: "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="#2196F3"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginRight="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="333,287,557 (2022 estimate)"
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="National Language: "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="#2196F3"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginRight="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="English"
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The most popular cities in United States"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="6dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/us_spinner"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/us_cities"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textAlignment="center">
+
+                </Spinner>
+
+                <Button
+                    android:id="@+id/go"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="display"
+                    android:layout_marginLeft="10dp"
+                    app:cornerRadius="20dp"
+                    android:text="Go">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:id="@+id/city_view"
+                android:src="@drawable/us_cities"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginHorizontal="40dp">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/citytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="20dp">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="api_key">5fa7eb9038e24703ba91672b7b12db38</string>
+    <string-array name="us_cities">
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Chicago</item>
+        <item>Houston</item>
+        <item>Phoenix</item>
+    </string-array>
+</resources>
